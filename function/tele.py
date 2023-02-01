@@ -12,6 +12,7 @@ def greet_message(message):
 def greet_message(message):
     bot.reply_to(message, "Xin chào!")
 
+#add GPT function
 @bot.message_handler(func=lambda msg: True)
 def chat_gpt(message):
     bot.reply_to(message, str(get_response(message.text)))
