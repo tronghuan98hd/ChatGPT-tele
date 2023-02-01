@@ -1,0 +1,1 @@
+To use this, use telegram an search https://t.me/mai_noti_bot
